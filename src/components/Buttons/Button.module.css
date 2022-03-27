@@ -1,0 +1,33 @@
+.button {
+  background-color: transparent;
+  margin: 10px;
+  border: 0.1rem solid lightgray;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.DeleteDialogBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.DeleteDialogBtn button:first-child {
+  background-color: #ccc;
+  margin: 10px;
+  border: 0.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+
+.DeleteDialogBtn button:nth-child(2) {
+  background-color: #f44336;
+  margin: 10px;
+  border: 0.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}

@@ -1,0 +1,33 @@
+.head {
+  background-color: lightgrey;
+  text-align: left;
+  width: 99.9%;
+  margin: auto;
+  padding: 1px 1px 1px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head p {
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: x-large;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.form input {
+  height: min-content;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.form button {
+  width: 50%;
+}
